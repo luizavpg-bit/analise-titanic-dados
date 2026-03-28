@@ -8,7 +8,7 @@ caminho = r'C:\Users\Luiza\Downloads\titanic\titanic.xlsx'
 # Lendo o Excel
 df = pd.read_excel(caminho)
 
-# RENOMEANDO E RECODIFICANDO (Padronização FEAUSP) ---
+# RENOMEANDO E RECODIFICANDO
 
 # Primeiro Passo: Troca o nome da coluna de 'sexo' para 'gênero'
 df = df.rename(columns={'sexo': 'gênero'})
